@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="고속터미널역에서 디저트, 실내 구경, 반포한강공원 산책과 저녁까지. 11월 20일 금요일 오후 데이트 가이드.">
+  <meta name="theme-color" content="#f8f5ed">
+  <title>고터에서, 반포까지 | 오후 데이트 가이드</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./guide.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#route">코스 바로 가기</a>
+  <header class="top wrap">
+    <a class="brand" href="#top">고터에서, 반포까지</a>
+    <nav aria-label="페이지 목차"><a href="#route">코스</a><a href="#places">즐길 거리</a><a href="#food">맛집</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="title">
+      <div class="hero-copy">
+        <h1 id="title">고터에서 만나,<br><em>한강까지.</em></h1>
+        <p>디저트를 하나씩 골라 나눠 먹고, 해 질 무렵 반포 물가를 걷는 오후. 바람이 차면 역 안에서 저녁까지 이어가요.</p>
+        <div class="hero-meta"><time datetime="2026-11-20">11월 20일 금요일</time><span>15:00 시작 추천</span></div>
+        <a class="button" href="#route">데이트 코스 보기</a>
+      </div>
+      <figure class="hero-photo">
+        <img src="./assets/banpo-night.jpg" width="1280" height="853" alt="밤이 되자 따뜻한 조명이 켜진 반포대교와 잠수교, 그 아래 한강 물결" fetchpriority="high">
+        <figcaption>반포대교와 잠수교 · 한강의 밤</figcaption>
+      </figure>
+    </section>
+
+    <section class="route section wrap" id="route" aria-labelledby="route-title">
+      <div class="section-head">
+        <div><h2 id="route-title">오후 동선</h2><p>고속터미널역 3·7·9호선 · 센트럴시티(호남선) 방향에서 만나기</p></div>
+        <div class="switch" hidden role="group" aria-label="코스 선택">
+          <button type="button" data-route="riverside" aria-controls="riverside" aria-pressed="true">한강 산책</button>
+          <button type="button" data-route="indoors" aria-controls="indoors" aria-pressed="false">실내 코스</button>
+        </div>
+      </div>
+      <div class="route-panel" id="riverside">
+        <h3 class="panel-title">한강 산책 코스</h3>
+        <ol class="timeline">
+          <li><time datetime="15:00">15:00</time><h4>역에서 만나기</h4><p>서로 다른 버스 터미널로 가지 않게 <strong>센트럴시티 방향</strong>을 먼저 맞춰요.</p></li>
+          <li><time datetime="15:20">15:20</time><h4>스위트파크</h4><p>신세계 강남점 B1에서 각자 디저트를 골라 나눠 먹어요.</p></li>
+          <li><time datetime="16:40">16:40</time><h4>반포한강공원</h4><p>8-1·8-2번 출구에서 도보 약 15분. 잠수교와 세빛섬 주변을 걸어요.</p></li>
+          <li><time datetime="18:00">18:00</time><h4>센트럴시티에서 저녁</h4><p>돌아와서 딤섬을 나눠 먹거나, 파미에스테이션에서 따뜻한 정식을 먹어요.</p></li>
+        </ol>
+        <p class="tip"><strong>달빛무지개분수는 올해 운영을 마쳤어요.</strong> <a href="https://hangang.seoul.go.kr/www/main.do">서울시 안내</a>에 따르면 10월 31일에 가동을 종료했어요. 강변 바람이 세면 산책을 짧게 잡으세요.</p>
+      </div>
+      <div class="route-panel" id="indoors">
+        <h3 class="panel-title">추운 날 실내 코스</h3>
+        <ol class="timeline">
+          <li><time datetime="15:00">15:00</time><h4>센트럴시티에서 만나기</h4><p>고속터미널역에서 호남선 표지를 따라가요.</p></li>
+          <li><time datetime="15:20">15:20</time><h4>고투몰 구경</h4><p>옷과 액세서리 가게를 돌며 서로에게 어울릴 소품을 하나씩 골라봐요.</p></li>
+          <li><time datetime="16:20">16:20</time><h4>디저트 또는 커피</h4><p>스위트파크에서 간식을 고르거나 파미에파크R에서 앉아서 쉬어요.</p></li>
+          <li><time datetime="17:40">17:40</time><h4>파미에스테이션 저녁</h4><p>호호식당이나 딤딤섬을 먼저 보고, 줄이 길면 고속터미널 파이브가이즈도 후보예요.</p></li>
+        </ol>
+        <p class="tip"><strong>오후 식사는 주문 시간을 확인하세요.</strong> 파미에스테이션은 매장마다 브레이크타임과 주문 마감이 달라요.</p>
+      </div>
+    </section>
+
+    <section class="places section" id="places" aria-labelledby="places-title">
+      <div class="wrap">
+        <div class="section-head"><div><h2 id="places-title">둘이 뭐 할까?</h2><p>역 주변 실내 세 곳, 해 질 무렵 걷기 좋은 강변 한 곳.</p></div></div>
+        <div class="place-grid">
+          <article><p class="label">실내 · 지하상가</p><h3>고투몰</h3><p>옷과 액세서리 가게가 이어지는 지하 쇼핑길. 부담 없이 구경하며 서로의 취향을 알아가기 좋아요.</p><a href="https://map.naver.com/p/search/고투몰">고투몰 지도</a></article>
+          <article><p class="label">실내 · 신세계 강남점 B1</p><h3>스위트파크</h3><p>파이, 빵, 초콜릿을 한자리에서 비교할 수 있어요. 서로 다른 디저트를 골라 나눠 먹고, 자리가 없으면 포장하세요.</p><a href="https://map.naver.com/p/search/신세계%20강남점%20스위트파크">스위트파크 지도</a></article>
+          <article><p class="label">실내 · 센트럴시티</p><h3>파미에스테이션</h3><p>옛 기차역을 모티브로 한 복합 식음 공간. 카페와 식당을 가까이서 비교할 수 있어 비 오거나 추운 날 편해요.</p><a href="https://map.naver.com/p/search/파미에스테이션">파미에스테이션 지도</a></article>
+          <article><p class="label">야외 · 8-1·8-2번 출구에서 도보 약 15분</p><h3>반포한강공원</h3><p>강변에서 잠수교와 반포대교를 한눈에 볼 수 있어요. 세빛섬 주변까지 걸으며 물가에서 사진 한 장 남겨봐요.</p><a href="https://hangang.seoul.go.kr/www/contents/665.do?mid=466">서울시 도보 안내</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="food section wrap" id="food" aria-labelledby="food-title">
+      <div class="section-head"><div><h2 id="food-title">고터에서 먹을 곳</h2><p>둘이 나눠 먹기 좋은 메뉴와, 앉아서 쉴 만한 곳을 골랐어요.</p></div></div>
+      <div class="food-list">
+        <article><div class="food-name"><p class="label">저녁 · 센트럴시티</p><h3>딤딤섬</h3></div><p>하가우, 가지딤섬, 샤오롱바오처럼 작은 접시를 여러 개 시켜 나눠 먹기 좋아요.</p><div class="links"><a href="https://www.tabling.co.kr/restaurant/11385">메뉴·대기 확인</a><a href="https://map.naver.com/p/search/딤딤섬%20센트럴시티점">지도</a></div></article>
+        <article><div class="food-name"><p class="label">저녁 · 파미에스테이션 1F</p><h3>호호식당</h3></div><p>사케동, 가츠 정식 같은 일본 가정식. 각자 한 그릇씩 편하게 먹고 싶을 때 어울려요.</p><div class="links"><a href="https://hohosikdang.com/%EC%A7%80%EC%A0%90-%EC%86%8C%EA%B0%9C/">매장 안내</a><a href="https://map.naver.com/p/search/호호식당%20파미에스테이션점">지도</a></div></article>
+        <article><div class="food-name"><p class="label">간단한 식사 · 신반포로 176</p><h3>파이브가이즈</h3></div><p>버거는 각자 토핑을 고르고 프라이는 하나를 나눠 먹기 좋아요. 프라이는 땅콩기름에 튀겨요.</p><div class="links"><a href="https://restaurants.fiveguys.co.kr/ko_kr/seocho-gu/176-sinbanpo-ro">매장 안내</a><a href="https://map.naver.com/p/search/파이브가이즈%20고속터미널">지도</a></div></article>
+        <article><div class="food-name"><p class="label">디저트 · 스위트파크 B1</p><h3>가리게트</h3></div><p>바삭한 원형 밀푀유를 파는 디저트 매장. 한 개를 골라 둘이 맛보기 좋아요.</p><div class="links"><a href="https://s.shinsegae.com/store/floor.do?storeCd=SC00002">층별 안내</a><a href="https://map.naver.com/p/search/가리게트%20신세계백화점%20강남점">지도</a></div></article>
+        <article><div class="food-name"><p class="label">커피 · 센트럴시티</p><h3>스타벅스 파미에파크R</h3></div><p>높은 천장의 리저브 매장. 디저트 구경 후 앉아서 이야기하거나, 한강에 다녀와 몸을 녹이기 좋아요.</p><div class="links"><a href="https://www.starbucks.co.kr/store/store_map.do?in_biz_cd=9990">매장 안내</a><a href="https://map.naver.com/p/search/스타벅스%20파미에파크R점">지도</a></div></article>
+      </div>
+      <p class="food-note">금요일 저녁엔 대기할 수 있어요. 방문 직전에 영업시간, 브레이크타임, 재고를 매장 안내에서 확인하세요.</p>
+    </section>
+  </main>
+  <footer><div class="wrap footer">
+    <p><strong>고터에서, 반포까지</strong><br><span>2026년 11월 19일 공개 안내 기준</span></p>
+    <div><p><a href="https://korean.visitseoul.net/gangnam/%EA%B3%A0%ED%88%AC%EB%AA%B0/KOP029546">서울관광</a> · <a href="https://s.shinsegae.com/store/floor.do?storeCd=SC00002">신세계 강남점</a> · <a href="https://hangang.seoul.go.kr/www/contents/663.do?mid=620">서울시 한강공원</a></p>
+    <p>사진: <a href="https://commons.wikimedia.org/wiki/File:Jamsu_Bridge_at_Night.jpg">Shiwon Cho / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a> (화면 비율에 맞춰 표시)</p></div>
+  </div></footer>
+</body>
+</html>
